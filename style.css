@@ -1,33 +1,33 @@
-.body{
-    margin: 0;
+body {
+    margin: 0 auto;
     padding: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
+    max-width: 1440px;
+
 }
 
 
-.title{
+.title {
     display: flex;
     justify-content: space-between;
-    width: 1440px;
+    width: 100%;
     min-height: 66px;
     color: #fff;
     margin: 0 auto;
     padding: 20px;
 }
 
-.title_center{
+.title_center {
     text-align: center;
     margin: 0 auto;
     padding: 11px
-
 }
 
-.title_left{
-    widows: 20px;
+.title_left {
     height: 20px;
 }
 
-.title_right{
+.title_right {
     display: flex;
     justify-content: space-around;
     color: #00895d;
@@ -36,48 +36,79 @@
     letter-spacing: .9px;
     width: 200px;
     padding-top: 15px;
+    margin-right: 10px;
     text-align: center;
 }
 
-.title_right_1{
+.title_right_1 {
     height: 20px;
     width: 60px;
     border-bottom: 1px solid #00895d;
 }
-.title_right_2{
+
+.title_right_2 {
     height: 20px;
     width: 20px;
     padding-right: 20px;
 }
 
-.title_right_3{
-  padding:5px 10px 0 0;
-  width: 50px;
+.title_right_3 {
+    padding: 5px 10px 0 0;
+    width: 50px;
 }
 
-.title_right_4{
-padding: 5px;
-width: 50px;
-height: 20px;
-border: 1px solid #00895d;
+.title_right_4 {
+    padding: 5px;
+    width: 50px;
+    height: 20px;
+    border: 1px solid #00895d;
+    /* margin-right: 10px; */
 }
 
-.banner_top{
+.banner_top {
     display: flex;
     justify-content: space-between;
-    width: 1440px;
+    width: 100%;
     margin: 0 auto;
     border: 1px solid #00895d;
 }
 
-.banner_left{
+.banner_left {
     height: 564px;
     width: 446px;
     border-right: 1px solid #00895d;
     flex-grow: 1;
 }
 
-
+/* 
 img{
     vertical-align: bottom;
+} */
+
+.banner_right {
+    background: url(./image/coverPhoto_20220413161603_b3h.jpg);
+    background-size: 991px 564px;
+    /* object-fit: contain; */
+    width: 991px;
+}
+
+.banner_right:hover .btn{
+    opacity: 1;
+    /* transform: .5s; */
+}
+
+.btn {
+    /* background: url(./image/coverPhoto_20220413161603_b3h.jpg);
+    background-size: 991px 564px ;
+    width: 991px; */
+    display: flex;
+    justify-content: space-between;
+    opacity: 0;
+}
+
+.btn img{
+    width: 40px;
+    height: 40px;
+    padding: 250px 10px;
+   
 }
