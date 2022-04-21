@@ -120,7 +120,7 @@ body{
     padding-top: 5px;
 }
 
-.story_block{
+.story_block, .story_block1{
     margin: 50px 20px ;
 }
 
@@ -269,6 +269,7 @@ body{
     padding: 10px;
     font-size: 0.5rem;
     border-bottom: 1px solid #00895d;
+    background-color: #eeece5;
 }
 
 .reading_exp_3{
@@ -294,6 +295,7 @@ body{
     font-weight: 600;
     border-left: 1px solid #00895d;
     border-right: 1px solid #00895d;
+    background-color: #eeece5;
 }
 .reading_author{
     font-size: 0.5rem;
@@ -302,6 +304,7 @@ body{
     border-left: 1px solid #00895d;
     border-right: 1px solid #00895d;
     border-bottom: 1px solid #00895d;
+    background-color: #eeece5;
     
     
 }
@@ -442,21 +445,48 @@ body{
 
 .editor_select{
     margin-top: 100px;
-    height: 550px;
+    /* height: 800px; */
     background-color: #00895d;
+    padding-bottom: 10px;
 }
 
 .select_title{
     display: flex;
+    font-size: 1.25rem;
     justify-content: space-between;
     color: white;
-    padding: 20px 20px 40px 20px;
+    padding: 40px 20px 40px 20px;
 }
 
 .editor_select_card{
     margin: 0 auto;
-    height: 400px;
+    /* height: 610px; */
     width:80% ;
     background-color: #eeece5;
     border-radius: 10px;
+    padding-bottom: 5px;
+}
+
+.card_title{
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+  font-weight: 500;
+  border-bottom: gray 2px solid;
+}
+
+.story_block1 .pic_story{
+    margin-bottom: 15px;
+}
+
+.story_block1 .pic_story img{
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.arrow_selection{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
 }
