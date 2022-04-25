@@ -62,7 +62,7 @@ body {
     width: 50px;
     height: 20px;
     border: 1px solid #00895d;
-    /* margin-right: 10px; */
+   
 }
 
 .banner_top {
@@ -79,11 +79,6 @@ body {
     border-right: 1px solid #00895d;
     flex-grow: 1;
 }
-
-/* 
-img{
-    vertical-align: bottom;
-} */
 
 .banner_right {
     background: url(./image/coverPhoto_20220413161603_b3h.jpg);

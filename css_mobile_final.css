@@ -15,7 +15,7 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     height: 54px;
-    border-bottom: 1px solid #00895d;
+    /* border-bottom: 1px solid #00895d; */
 }
 
 .btn_top {
@@ -30,9 +30,11 @@ body {
     width: 100px;
 }
 
-.search {
+.search_mobile img {
     padding-top: 15px;
     padding-left: 20px;
+    width: 30px;
+    height: 30px;
 }
 
 .login {
@@ -48,6 +50,108 @@ body {
     font-family: 'Noto Sans TC';
 }
 
+.title_center, .title_right{
+    display: none;
+}
+
+/* nav桌機版開始 */
+
+@media screen and (min-width:800px){
+
+    .title {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height: 54px;
+        /* border-bottom: 1px solid #00895d; */
+        width: 1440px;
+    }
+
+    .btn_top {
+        margin: 0 10px;
+        padding-top: 12px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .logo_top {
+        /* padding: 0 0 0 100px; */
+        width: 100px;
+        display: none;
+    }
+
+    .title_center {
+       /* align-items: center; */
+        margin: 0 auto;
+        padding-top: 11px ;
+        padding-left: 160px;
+        display: block;
+    }
+    
+    .search_mobile img {
+        padding-top: 15px;
+        padding-left: 20px;
+        width: 30px;
+        height: 30px;
+        display: none;
+    }
+    
+    .login {
+        margin: 10px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        width: 50px;
+        height: 20px;
+        border: 1px solid #00895d;
+        text-align: center;
+        border-radius: 20px;
+        color: #00895d;
+        font-family: 'Noto Sans TC';
+        display: none;
+    }
+
+    .title_right {
+        display: flex;
+        justify-content: space-around;
+        color: #00895d;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: .9px;
+        width: 200px;
+        padding-top: 15px;
+        margin-right: 10px;
+        text-align: center;
+    }
+    
+    .title_right_1 {
+        height: 20px;
+        width: 60px;
+        border-bottom: 1px solid #00895d;
+    }
+    
+    .title_right_2 img {
+        height: 20px;
+        width: 20px;
+        padding-right: 20px;
+    }
+    
+    .title_right_3 {
+        padding: 5px 10px 0 0;
+        width: 50px;
+    }
+    
+    .title_right_4 {
+        padding: 5px;
+        width: 50px;
+        height: 20px;
+        border: 1px solid #00895d;
+
+}
+}
+/* nav桌機版結束 */
+
 .top_cover img,
 .pic_story img,
 .week_story img,
@@ -59,11 +163,14 @@ body {
     display: block;
 }
 
+
 .cover_des {
     background-color: #eeece5;
     width: auto;
     padding: 20px 35px 20px;
-    border-bottom: 1px solid #00895d;
+    border-top: 1px solid #00895d;
+    border-left: 1px solid #00895d;
+    border-bottom:1px solid #00895d ;
 }
 
 .cover_title p {
@@ -87,6 +194,43 @@ body {
     width: 25px;
     height: 25px;
 }
+
+/* top_cover桌機版開始 */
+
+@media screen and (min-width:800px){
+    .desk_cover{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 1440px;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+
+    .cover_des{
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+    }
+
+    .cover_seemore {
+        /* display: flex;
+        justify-content: flex-end; */
+        align-items: flex-end;
+        color: #00895d;
+        bottom: 10px;
+    }
+    /* 不知道要怎麼把查看更多推到最下面 */
+    .cover_seemore img {
+        padding: 0 0 0 5px;
+        width: 25px;
+        height: 25px;
+    }
+}
+
+/* top_cover桌機版結束 */
+
+.desk_cover .top_cover img{
+border: 1px solid #00895d;}
 
 .new_article_title {
     height: 40px;

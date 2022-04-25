@@ -52,6 +52,10 @@ body {
     font-family: 'Noto Sans TC';
 }
 
+@media screen and (min-width:400px){
+    
+}
+
 .top_cover img,
 .pic_story img,
 .week_story img,
