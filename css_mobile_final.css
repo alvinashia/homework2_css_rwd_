@@ -209,15 +209,17 @@ body {
     .cover_des{
         display: flex;
         flex-direction: column;
-        align-content: space-between;
+        justify-content: space-between;
+     
     }
 
     .cover_seemore {
         /* display: flex;
         justify-content: flex-end; */
         align-items: flex-end;
-        color: #00895d;
+        color: #ffffff;
         bottom: 10px;
+        background-color: #00895d;
     }
     /* 不知道要怎麼把查看更多推到最下面 */
     .cover_seemore img {
