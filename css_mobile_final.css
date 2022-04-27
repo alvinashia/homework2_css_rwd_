@@ -317,7 +317,7 @@ body {
 
 }
 
-/* .new_article桌機版開始 */
+/* 最新文章bar桌機版開始 */
 @media screen and (min-width:800px) {
 
     .new_article {
@@ -354,7 +354,7 @@ body {
     }
 }
 
-/* .new_article桌機版結束 */
+/* 最新文章bar桌機版結束 */
 .date_type {
     display: flex;
     justify-content: flex-start;
@@ -426,7 +426,7 @@ body {
     margin-bottom: 120px;
 }
 
-/* story_block 桌機版開始 */
+/* 最新文章桌機版開始 */
 
 @media screen and (min-width:800px) {
 
@@ -464,7 +464,7 @@ body {
    }
 }
 
-/* story_block 桌機版結束 */
+/* 最新文章桌機版結束 */
 
 .review_top {
     display: flex;
@@ -545,7 +545,7 @@ body {
 
 }
 
-/* weekly story 桌機版開始 */
+/* 每週會員回顧桌機版開始 */
 
 
 @media screen and (min-width:800px) {
@@ -642,7 +642,7 @@ body {
     }
     }
 
-/* weekly story 桌機版結束 */
+/* 每週會員回顧桌機版結束 */
 
 .week_story {
     margin: 30px 10px;
@@ -736,23 +736,21 @@ body {
 
 }
 
-.reading_exp_3_1,.dis_reading_1,.reading_author_1,.title_reading_1,.block_of_reading_icon, .block_of_reading_icon_next, .block_of_reading_icon_pre {
+.reading_exp_3_1,.dis_reading_1,.reading_author_1,.title_reading_1,.block_of_reading_icon, .block_of_reading_icon_next, .block_of_reading_icon_pre ,.next_white_icon p{
     display: none;
 }
 
-/* special note 桌機版開始 */
+/* 專題特輯桌機版開始 */
 
 @media screen and (min-width:800px) {
 
     .special_note{
         width: 1300px;
         margin: 80px auto;
-        /* padding-top: 80px; */
         border: 1px solid #00895d;
     }
 
     .reading_exp_2 {
-
         display: none;
     }
 
@@ -760,15 +758,13 @@ body {
         display: block;
         flex-grow: 3;
         text-align:center;
-        padding: 10px;
+        padding: 12px;
     }
 
     .reading_exp {
         padding-top: 12px;
         display: block;
-        text-align: center;
         flex-grow: 1;
-        border-right: 1px solid #00895d;
     }
 
     .spe_look {
@@ -776,13 +772,7 @@ body {
         display: block;
         text-align: center;
         flex-grow: 1;
-        border-right: 1px solid #00895d;
     }
-
-    .next_white_icon {
-        text-align: center;
-    }
-
 
     .next_white_icon p {
         display: inline-block;
@@ -804,8 +794,6 @@ body {
     
     .reading_exp_3_1 {
         display: block;
-        margin: 0 auto;
-        display: flex;
         flex-direction: column;
         border-right: 1px solid #00895d;
     }
@@ -815,8 +803,6 @@ body {
         background-color: #C6D27C;
         color: #00895d;
         padding: 10px;
-        /* border: 1px solid #00895d; */
-        border-bottom: 1px solid #00895d;
     }
     
     .dis_reading_1 {
@@ -829,8 +815,6 @@ body {
         padding: 10px 10px 0 10px;
         color: #00895d;
         font-weight: 600;
-        /* border-left: 1px solid #00895d; */
-        /* border-right: 1px solid #00895d; */
         background-color: #eeece5;
     }
     
@@ -839,9 +823,6 @@ body {
         font-size: 0.5rem;
         padding: 10px;
         color: gray;
-        /* border-left: 1px solid #00895d; */
-        /* border-right: 1px solid #00895d; */
-        /* border-bottom: 1px solid #00895d; */
         background-color: #eeece5;
     
     }
@@ -860,13 +841,11 @@ body {
     }
 
     .block_of_reading_icon_pre img{
-        text-align: center;
         padding-top: 50px;
         padding-left: 25px;
     }
 
     .block_of_reading_icon_next img{
-        text-align: center;
         padding-top: 60px;
         padding-left: 10px;
         width: 30px;
@@ -875,7 +854,7 @@ body {
 
 }
 
-/* special note 桌機版结束 */
+/* 專題特輯桌機版结束 */
 
 .new_article_title2 {
     height: 40px;
@@ -989,6 +968,50 @@ body {
 
 }
 
+.hot_article_desk{
+    display: none;
+}
+/* 熱門文章桌機版開始 */
+@media screen and (min-width:800px) {
+ 
+    .hot_article_mobile{
+        display: none;
+    }
+
+    .hot_article_desk{
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+
+    }
+    .hot_article_desk_left{
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+    }
+
+    .hot_article_desk_left_up{
+      width: 600px;
+     }
+
+    .hot_article_desk_left_down{
+       display: flex;
+       flex-direction: row;
+       width: 100%;
+    }
+
+    .hot_article_desk_left_down .list_first{
+        flex-direction: row;
+        width: 300px
+     }
+
+    .list_first{
+        flex-direction: column;
+        border: none;
+    }
+
+}
+/* 熱門文章桌機版結束 */
 
 .editor_select {
     margin-top: 100px;
@@ -1045,7 +1068,7 @@ body {
     width: 50px;
 }
 
-/* green card 桌機版開始 */
+/* 編輯精選桌機版開始 */
 @media screen and (min-width:800px) {
 
     .editor_select{
@@ -1096,12 +1119,8 @@ body {
         display: none;
     }
 
-    .editor_select_card_desk arrow_w {
-     padding-left: 30px;
-    }
-
 }
-/* green card 桌機版結束 */
+/*編輯精選桌機版結束 */
 
 .author_circle {
     text-align: center;
@@ -1146,6 +1165,93 @@ body {
     width: 250px;
     align-items: center;
 }
+
+.wrap5_desk{
+    display: none;
+}
+
+/* 專欄作者桌機版開始 */
+
+@media screen and (min-width:800px) {
+
+    .new_article_title2 {
+      font-size: 2rem;  
+      padding-bottom: 10px;
+    }
+
+    .wrap5{
+        display: none;
+    }
+
+    .author_circle {
+        text-align: center;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin: 20px auto;
+        border: solid 1px white;
+        overflow: hidden;
+    }
+
+    .author_circle img{
+        width: 100%;
+    }
+
+    .wrap5_desk{
+        display: flex;
+        justify-content: space-evenly;
+        width: 1400px;
+        margin: 0 auto;
+        padding-bottom: 150px;
+    }
+
+    .wrap5_desk .bg_white {
+         width: 60px;
+       padding-top: 250px;
+     }
+
+     .wrap5_desk .story_content1{
+        margin-bottom: 0;
+        padding-bottom: 3px;
+        border-bottom: 1px solid #00895d;
+        /* line-height: 150%; */
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        /* padding: 5px 5px 0 5px; */
+     }
+
+     .wrap5_desk .author_title{
+         border-bottom: none;
+     }
+
+     .authour_section{
+        width: 300px;
+     }
+
+     .story_content1_desk {
+         display: flex;
+         flex-direction: column;
+        line-height: 150%;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    
+    }
+
+    .author_select{
+        padding-bottom: 3px;
+        border-bottom: 1px solid gray;
+    }
+
+    .author_select1{
+        border-bottom: none;
+     }
+
+}
+/* 專欄作者桌機版結束 */
 
 .sdgs {
     position: relative;
@@ -1199,7 +1305,7 @@ body {
     display: none;
 }
 
-
+/* SDGs桌機版開始 */
 
 @media screen and (min-width:800px) {
 
@@ -1247,8 +1353,8 @@ body {
         background-color: #4bbbde;
     }
 
-   
 }
+/* SDGs桌機版結束 */
 
 .wrap6 {
     display: flex;
@@ -1286,7 +1392,7 @@ body {
 .know_story_pic_desk{
     display: none;}
 
-    /* know story booking img 桌機版開始*/
+    /* 認識訂閱故事桌機版開始*/
 
 @media screen and (min-width:800px) {
 
@@ -1303,44 +1409,9 @@ body {
         
     }
 
-    .wrap6 {
-        display: flex;
-        justify-content: space-around;
-        height: 46px;
-        width: 100%;
-     
-        /* border-bottom: 1px solid #00895d;
-        border-top: 1px solid #00895d; */
-        /* margin-bottom: 60px; */
-    }
-    
-    .wrap6 img {
-        width: 20px;
-        padding: 2px;
-        
-    }
-    
-    .wrap6>div:nth-child(1) {
-        color: white;
-        background-color: #eeece5;
-        flex-grow: 1.25;
-        color: #00895d;
-        padding-left: 5px;
-        padding-top: 10px;
-    }
-    
-    .wrap6>div:nth-child(2) {
-        color: white;
-        background-color: #00895d;
-        flex-grow: 1;
-        text-align: end;
-        padding-right: 5px;
-        padding-top: 10px;
-    }
-
 }
 
-    /* know story booking img 桌機版結束*/
+    /*認識訂閱故事桌機版結束*/
 
 .logo_footer {
     margin: 0 auto;
@@ -1460,3 +1531,56 @@ body {
     margin-bottom: 30px;
     font-weight: 600;
 }
+
+.footer_story_desk{
+    display: none;
+}
+
+/* 頁腳桌機版開始 */
+@media screen and (min-width:800px) {
+   
+    .footer_story_mobile{
+        display: none;
+    }
+   
+    .footer_story_desk{
+        display: flex;
+        justify-content: center;
+        width: 1400px;
+        margin: 0 auto;
+        align-items: center;
+        
+    }
+
+    .logo_footer img{
+    width: 150px;
+    }
+      
+    .icon_media img {
+        width: 25px;
+    }
+  
+    .about_us ul {
+        font-size: 1.25rem;
+        padding-left: 20px;
+        margin-left: 40px;
+    }
+    
+    .about_us li {
+        font-size: 1rem;
+        line-height: 2rem;
+        padding-left: 20px;
+        margin-left: 40px;
+    }
+    
+    .end_block {
+        margin-top: 60px;
+    }
+    
+    .wrap8 {
+        border:1px solid #00895d;
+        margin-left: 40px;
+    }
+      
+}
+/* 頁腳桌機版結束 */
