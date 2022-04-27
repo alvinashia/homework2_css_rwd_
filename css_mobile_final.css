@@ -459,6 +459,9 @@ body {
 
     
 }
+   .lock{
+       margin: 0 ;
+   }
 }
 
 /* story_block 桌機版結束 */
@@ -635,7 +638,7 @@ body {
 
     .last_week_desk_block_pic img{
         width: 100%;
-        height: 200px;
+        height: auto;
     }
     }
 
@@ -1009,6 +1012,10 @@ body {
     padding-bottom: 5px;
 }
 
+.editor_select_card_desk{
+    display: none;
+}
+
 .card_title {
     display: flex;
     justify-content: flex-start;
@@ -1037,6 +1044,64 @@ body {
 .arrow_w img {
     width: 50px;
 }
+
+/* green card 桌機版開始 */
+@media screen and (min-width:800px) {
+
+    .editor_select{
+        width: 1400px;
+        margin: 50px auto;
+        padding-bottom: 85px;
+    }
+
+    .select_title{
+       display: flex;
+       justify-content: left;
+       padding: 20px 40px;
+       align-items: center;
+     
+    }
+
+    .arrow_selection{
+        display: none;
+    }
+
+    .select_title span{
+        display: flex;
+        justify-content: left;
+        padding: 20px;
+      
+     }
+
+    .editor_select_card_desk{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1300px;
+        margin: 0 auto;
+        
+        
+    }
+    .editor_select_card_desk_content{
+        display: block;
+        margin: 0 auto;
+        width: 350px;
+        background-color: #eeece5;
+        border-radius: 10px;
+        padding-bottom: 5px;
+
+    }
+
+    .editor_select_card{
+        display: none;
+    }
+
+    .editor_select_card_desk arrow_w {
+     padding-left: 30px;
+    }
+
+}
+/* green card 桌機版結束 */
 
 .author_circle {
     text-align: center;
@@ -1218,12 +1283,18 @@ body {
     padding-top: 10px;
 }
 
-.know_story_pic{
+.know_story_pic_desk{
     display: none;}
+
+    /* know story booking img 桌機版開始*/
 
 @media screen and (min-width:800px) {
 
-    .know_story_pic {
+    .know_story_pic{
+        display: none;
+    }
+
+    .know_story_pic_desk {
         display: block;
         width: 1200px;
         margin: 60px auto;
@@ -1268,6 +1339,8 @@ body {
     }
 
 }
+
+    /* know story booking img 桌機版結束*/
 
 .logo_footer {
     margin: 0 auto;
