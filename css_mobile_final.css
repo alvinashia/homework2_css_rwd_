@@ -455,9 +455,9 @@ body {
 
     
 }
-   .lock{
-       margin: 0 ;
-   }
+    .lock{
+        margin: 0 ;
+    }
 }
 
 /* 最新文章桌機版結束 */
@@ -481,7 +481,7 @@ body {
 }
 
 .week_story_desk{
- display: none;
+    display: none;
 }
 
 .wrap {
@@ -581,23 +581,22 @@ body {
         background-color: rgb(209, 218, 147);
     }
 
-      .last_week_desk_block_big{
-       display: flex;
-       justify-content: space-evenly;
-       width: 1400px;
-       margin: 0 auto;
-       overflow: hidden;
-      
+    .last_week_desk_block_big{
+        display: flex;
+        justify-content: space-evenly;
+        width: 1400px;
+        margin: 0 auto;
+        overflow: hidden;
+
 }
 
    .last_week_desk {
-      display: flex;
-      align-items: center;
-   }
+        display: flex;
+        align-items: center;
+    }
 
     .last_week_desk_block{
         width: 350px;
-       
     }
 
     .last_week_desk_block h5{
@@ -610,8 +609,8 @@ body {
 
 
     .last_week_desk_block span{
-      background-color: rgb(209, 218, 147);
-      padding-right: 5px;
+        background-color: rgb(209, 218, 147);
+        padding-right: 5px;
     }
 
 
@@ -772,14 +771,14 @@ body {
 
     .next_white_icon p {
         display: inline-block;
-       color: #ffffff;
-       padding: 10px 10px 0 20px;
-       margin: 0 auto;
-       vertical-align: top;
+        color: #ffffff;
+        padding: 10px 10px 0 20px;
+        margin: 0 auto;
+        vertical-align: top;
     }
 
     .dis_reading,.reading_author,.title_reading {
-       display: none;
+        display: none;
     }
 
     .block_of_reading{
@@ -984,7 +983,7 @@ body {
 
     .hot_article_desk_left .rank_pic {
         position: relative;
-      
+
     }
 
     .hot_article_desk_left_up .rank_pic::before {
@@ -1034,7 +1033,6 @@ body {
     
     }
     
- 
     .hot_article_mobile{
         display: none;
     }
@@ -1053,18 +1051,18 @@ body {
     }
 
     .hot_article_desk_left_up{
-      width: 666px;
-     }
+        width: 666px;
+    }
 
     .hot_article_desk_left_down{
-       display: flex;
-       flex-direction: row;
-       width: 100%;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
     }
 
     .hot_article_desk_left_down .list_first{
         width: 300px
-     }
+    }
 
     .list_first{
         flex-direction: column;
@@ -1072,7 +1070,7 @@ body {
     }
 
     .hot_article_desk_left_up .rank_pic{
-       width: 100%;
+        width: 100%;
     }
 
     .hot_article_desk_left_up .rank_pic img{
@@ -1166,11 +1164,11 @@ body {
     }
 
     .select_title{
-       display: flex;
-       justify-content: left;
-       padding: 20px 40px;
-       align-items: center;
-     
+        display: flex;
+        justify-content: left;
+        padding: 20px 40px;
+        align-items: center;
+
     }
 
     .rank_dis {
@@ -1186,8 +1184,8 @@ body {
         display: flex;
         justify-content: left;
         padding: 20px;
-      
-     }
+
+    }
 
     .editor_select_card_desk{
         display: flex;
@@ -1212,7 +1210,7 @@ body {
         display: none;
     }
 
-   
+
 
 }
 /*編輯精選桌機版結束 */
@@ -1270,8 +1268,8 @@ body {
 @media screen and (min-width:800px) {
 
     .new_article_title2 {
-      font-size: 2rem;  
-      padding-bottom: 40px;
+        font-size: 2rem;  
+        padding-bottom: 40px;
     }
 
     .wrap5{
@@ -1301,11 +1299,11 @@ body {
     }
 
     .wrap5_desk .bg_white {
-         width: 60px;
-       padding-top: 250px;
-     }
+        width: 60px;
+        padding-top: 250px;
+    }
 
-     .wrap5_desk .story_content1{
+    .wrap5_desk .story_content1{
         margin-bottom: 0;
         padding-bottom: 3px;
         border-bottom: 1px solid #00895d;
@@ -1314,19 +1312,19 @@ body {
         -webkit-box-orient: vertical;
         overflow: hidden;
 
-     }
+    }
 
-     .wrap5_desk .author_title{
-         border-bottom: none;
-     }
+    .wrap5_desk .author_title{
+        border-bottom: none;
+    }
 
-     .authour_section{
+    .authour_section{
         width: 300px;
-     }
+    }
 
-     .story_content1_desk {
-         display: flex;
-         flex-direction: column;
+    .story_content1_desk {
+        display: flex;
+        flex-direction: column;
         line-height: 150%;
         display: -webkit-box;
         -webkit-line-clamp: 1;
@@ -1342,7 +1340,7 @@ body {
 
     .author_select1{
         border-bottom: none;
-     }
+}
 
 }
 /* 專欄作者桌機版結束 */
@@ -1632,11 +1630,11 @@ body {
 
 /* 頁腳桌機版開始 */
 @media screen and (min-width:800px) {
-   
+
     .footer_story_mobile{
         display: none;
     }
-   
+
     .footer_story_desk{
         display: flex;
         justify-content: center;
@@ -1649,11 +1647,11 @@ body {
     .logo_footer img{
     width: 150px;
     }
-      
+
     .icon_media img {
         width: 25px;
     }
-  
+
     .about_us ul {
         font-size: 1.25rem;
         padding-left: 20px;
@@ -1675,7 +1673,7 @@ body {
         border:1px solid #00895d;
         margin-left: 40px;
     }
-      
+
 }
 /* 頁腳桌機版結束 */
 
@@ -1708,8 +1706,8 @@ body {
 }
 
 #myBtn:hover{
-   background: #000;
-    color: #ffffff
-    border: 1px solid ##000;
+    background: #000;
+    color: #ffffff;
+    border: 1px solid #000;
 }
 }
