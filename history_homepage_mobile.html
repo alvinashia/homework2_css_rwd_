@@ -848,10 +848,10 @@
 
         </div>
     </footer>
-    <div class="btn_back_to_top">
-        <button onclick="topFunction()" id="myBtn" title="Go to top">回到<br>首頁</button>
-    </div>
 
+    <button onclick="topFunction()" id="myBtn" class="btn_back_to_top box" title="Go to top">回到<br>上方</button>
+
+    <script src="./jquery-3.6.0.js"></script>
     <script>
 
         let mybutton = document.getElementById("myBtn");
@@ -863,10 +863,20 @@
                 mybutton.style.display = "none";
             }
         }
-        function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
+
+        // function topFunction() {
+        //     document.body.scrollTop = 0;
+        //     document.documentElement.scrollTop = 0;
+        // }
+
+        $(".box").click(function () {
+            $("html, body").animate(
+                {
+                    scrollTop: 0,
+                },
+                "slow"
+            );
+        });
     </script>
 </body>
 
