@@ -6,7 +6,7 @@
 
 Practice the layout of the website 
 
-[x] RWD support
+- [x] RWD support
 
 https://history-rwd-practice.netlify.app/
 
