@@ -12,6 +12,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&family=Quicksand:wght@300;400;500&display=swap"
         rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -849,8 +851,8 @@
         </div>
     </footer>
 
-    <!-- <button onclick="topFunction()" id="myBtn" class="btn_back_to_top box" title="Go to top">回到<br>上方</button> -->
-    <!-- 
+    <button onclick="topFunction()" id="myBtn" class="btn_back_to_top box" title="Go to top">回到<br>上方</button> -->
+
     <script src="./jquery-3.6.0.js"></script>
     <script>
 
@@ -862,22 +864,23 @@
             } else {
                 mybutton.style.display = "none";
             }
-        } -->
-    <!-- 
-        // function topFunction() {
-        //     document.body.scrollTop = 0;
-        //     document.documentElement.scrollTop = 0;
-        // }
+        }
 
-    //     $(".box").click(function () {
-    //         $("html, body").animate(
-    //             {
-    //                 scrollTop: 0,
-    //             },
-    //             "slow"
-    //         );
-    //     });
-    // </script> -->
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+        $(".box").click(function () {
+            $("html, body").animate(
+                {
+                    scrollTop: 0,
+                },
+                "slow"
+            );
+        });
+
+    // </script>
 </body>
 
 </html>
